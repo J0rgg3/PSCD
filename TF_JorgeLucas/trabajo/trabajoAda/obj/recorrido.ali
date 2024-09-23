@@ -1,0 +1,40 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -gnatc
+A -mtune=generic
+A -march=x86-64
+P NO FX
+
+RN
+RV NO_PROTECTED_TYPES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV MAX_PROTECTED_ENTRIES=4
+
+U recorrido%s		recorrido.ads		5124da28 EE OO PK IL
+
+D recorrido.ads		20221222113810 5124da28 recorrido%s
+G a Z
+X 1 recorrido.ads
+1K9*recorrido 34l5 34e14
+11W19*monitor 23E7 31l8 31e15
+13Y13 aparcar 13>21
+13i21 x{integer}
+14Y13 darAlta 14>21
+14i21 x{integer}
+15Y13 resolverDuda 15>26
+15i26 x{integer}
+16U17 tenerDuda 16>28
+16i28 x{integer}
+19Y13 ducharse 19>22
+19i22 x{integer}
+23b7 app{boolean}
+24i7 aparcamientos{integer}
+25b7 libre{boolean}
+26b7 blibre{boolean}
+26b14 slibre{boolean}
+26b21 llibre{boolean}
+26b28 rlibre{boolean}
+26b35 flibre{boolean}
+27i7 duchas{integer}
+

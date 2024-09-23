@@ -1,0 +1,2 @@
+main.adb:33:19: warning: variable "abierto" is not modified in loop body [enabled by default]
+main.adb:33:19: warning: possible infinite loop [enabled by default]

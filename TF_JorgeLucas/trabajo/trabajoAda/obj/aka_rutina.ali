@@ -1,0 +1,94 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -gnatc
+A -mtune=generic
+A -march=x86-64
+P NO FX
+
+RN
+RV NO_DELAY
+RV NO_FIXED_POINT
+RV NO_IO
+RV NO_RELATIVE_DELAY
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV MAX_ENTRY_QUEUE_LENGTH=1+
+
+U aka_rutina%b		aka_rutina.adb		2488e2d4 OO PK IL
+W ada%s			ada.ads			ada.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.discrete_random%s
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+U aka_rutina%s		aka_rutina.ads		7c326335 EE OO PK IL
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W recorrido%s		recorrido.adb		recorrido.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20210520051130 84bea7a3 ada.numerics%s
+D a-nudira.ads		20210520051130 5984dff3 ada.numerics.discrete_random%s
+D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
+D a-string.ads		20210520051130 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
+D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
+D aka_rutina.ads	20221222114030 2d16b91d aka_rutina%s
+D aka_rutina.adb	20221222114106 feee5157 aka_rutina%b
+D interfac.ads		20210520051132 edec285f interfaces%s
+D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
+D recorrido.ads		20221222114040 5124da28 recorrido%s
+D system.ads		20210520051136 2ffa5114 system%s
+D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
+D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-rannum.ads		20210520051134 c3978523 system.random_numbers%s
+D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
+D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z s b [ejercicio aka_rutina 7 14 none]
+G c Z s b [banca aka_rutina 8 14 none]
+G c Z s b [sentadilla aka_rutina 9 14 none]
+G c Z s b [laterales aka_rutina 10 14 none]
+G c Z s b [remo aka_rutina 11 14 none]
+G c Z s b [fondos aka_rutina 12 14 none]
+G r p none [banca aka_rutina 8 14 none] [tenerduda recorrido__monitor 10 17 none]
+G r p none [sentadilla aka_rutina 9 14 none] [tenerduda recorrido__monitor 10 17 none]
+G r p none [laterales aka_rutina 10 14 none] [tenerduda recorrido__monitor 10 17 none]
+G r p none [remo aka_rutina 11 14 none] [tenerduda recorrido__monitor 10 17 none]
+G r p none [fondos aka_rutina 12 14 none] [tenerduda recorrido__monitor 10 17 none]
+X 1 ada.ads
+16K9*Ada 20e8 11|1r6 1r18 2r5
+X 3 a-numeri.ads
+16K13*Numerics 35e17 11|1r22
+X 4 a-nudira.ads
+44k22*Discrete_Random 81e33 11|1w31
+X 9 a-textio.ads
+58K13*Text_IO 725e16 11|1w10 2r9
+506U14*Put_Line 11|17s10 22s10 32s10 37s10 49s10 54s10 65s10 70s10 81s10
+. 86s10
+X 10 aka_rutina.ads
+5K9*aka_rutina 14l5 14e15 11|4b14 94l5 94t15
+6w5*m{14|5W19} 11|18r10 33r10 50r10 66r10 82r10
+7U14*ejercicio 11|6b14 11l8 11t17 21s10 36s10 53s10 69s10 85s10
+8U14*banca 8>20 8=36 11|13b15 27l11 27t16
+8i20 x{integer} 11|13b22 17r49 18r22 22r49
+8b36 b{boolean} 11|13b37 24m10
+9U14*sentadilla 9>25 9=41 11|29b17 43l11 43t21
+9i25 x{integer} 11|29b29 32r49 33r22 37r49
+9b41 b{boolean} 11|29b44 39m10
+10U14*laterales 10>24 10=40 11|45b17 59l11 59t20
+10i24 x{integer} 11|45b28 49r49 50r22 54r49
+10b40 b{boolean} 11|45b43 56m10
+11U14*remo 11>19 11=35 11|61b17 75l11 75t15
+11i19 x{integer} 11|61b23 65r49 66r22 70r49
+11b35 b{boolean} 11|61b38 72m10
+12U14*fondos 12>21 12=37 11|77b17 91l11 91t17
+12i21 x{integer} 11|77b25 81r49 82r22 86r49
+12b37 b{boolean} 11|77b40 88m10
+X 14 recorrido.ads
+1K9*recorrido 10|1w6 2r5 14|28e14
+5W19*monitor 10|6r9 14|25e15
+10U17 tenerDuda 11|18s12 33s12 50s12 66s12 82s12
+

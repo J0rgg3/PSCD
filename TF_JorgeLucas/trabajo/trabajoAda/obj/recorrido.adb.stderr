@@ -1,0 +1,4 @@
+recorrido.adb:25:10: warning: potentially blocking operation in protected operation [enabled by default]
+recorrido.adb:37:10: warning: potentially blocking operation in protected operation [enabled by default]
+recorrido.adb:74:13: warning: potentially blocking operation in protected operation [enabled by default]
+recorrido.adb:169:10: warning: potentially blocking operation in protected operation [enabled by default]
