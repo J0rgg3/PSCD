@@ -1,5 +1,4 @@
 # PSCD
-Programación de sistemas concurrentes
+Programación de sistemas concurrentes (EUPT) 2022-2023
 
 Lenguajes: Java , ADA
-Semaforos, Semaforos binarios, monitores,...
